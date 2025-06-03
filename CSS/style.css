@@ -22,20 +22,20 @@ grid-template-rows: auto auto 1fr auto;
 
 .header {
 
-background: blue;
+background: #42D9C8;
 grid-area:header;
 padding: 1rem;
 
 }
 
 .nav {
-    background: lightgreen;
+    background: #2C8C99;
     grid-area: nav; 
     padding: 1rem;
 }
 
 .section {
-    background: lightcoral;
+    background: #326771;
     grid-area: section;
     padding: 1rem;
     min-height: calc(100vh - altura_header - altura_nav - altura_footer);
@@ -43,7 +43,7 @@ padding: 1rem;
 
 
 .footer{
-    background: lightcyan ;
+    background: #28464b;
     grid-area: footer;
     padding: 1rem;
 }
