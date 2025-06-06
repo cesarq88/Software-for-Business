@@ -1,5 +1,10 @@
 
 body, html {
+    font-family: 'Atkinson Hyperlegible Mono', monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -9,7 +14,6 @@ body, html {
     
 display: grid ;
 height: 100vh;
-
 grid-template-areas: 
 "header" 
 "nav" 
@@ -22,20 +26,27 @@ grid-template-rows: auto auto 1fr auto;
 
 .header {
 
-background: #42D9C8;
+background: #9AD4D6;
 grid-area:header;
 padding: 1rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-width: 150px;
 
 }
 
 .nav {
-    background: #2C8C99;
+    font-family: 'Atkinson Hyperlegible Mono', monospace;
+    background: #54b1bd;
     grid-area: nav; 
     padding: 1rem;
 }
 
 .section {
-    background: #326771;
+    background: #e2e6e7;
     grid-area: section;
     padding: 1rem;
     min-height: calc(100vh - altura_header - altura_nav - altura_footer);
@@ -43,12 +54,13 @@ padding: 1rem;
 
 
 .footer{
-    background: #28464b;
+    background: #C6E9EB;
     grid-area: footer;
     padding: 1rem;
 }
 
  .nav ul {
+    font-family: 'Atkinson Hyperlegible Mono';
     display: grid;
     grid-auto-flow: column;
     list-style: none;
@@ -107,7 +119,7 @@ padding: 1rem;
 
 .bio-miembro {
     color: var(--color-texto); /* #326771 */
-    line-height: 1.6;
+    line-hseight: 1.6;
 }
 
 /* Versión para pantallas grandes (opcional) */
