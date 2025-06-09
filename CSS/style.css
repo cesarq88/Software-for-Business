@@ -59,6 +59,15 @@ color: #28464B;
 
 }
 
+.contenedor-logos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 100px;
+padding: 20 px;
+}
+
 }
 
 
@@ -75,6 +84,13 @@ color: #28464B;
     list-style: none;
     padding: 1rem;
     gap: 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 @media (max-width:1023px) {
 
