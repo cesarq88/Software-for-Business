@@ -51,6 +51,8 @@ min-width: 150px;
     padding: 1rem;
     min-height: calc(100vh - altura_header - altura_nav - altura_footer);
 
+}
+
 .titulos-clientes{
 text-align: center;
 margin: 2rem 0;
@@ -68,6 +70,8 @@ gap: 100px;
 padding: 20 px;
 }
 
+.contacto-formulario{
+ display: block;
 }
 
 
@@ -90,7 +94,26 @@ padding: 20 px;
     text-decoration: none;
 }
 nav a:hover{
+
     text-decoration: underline;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2 rem;
+}
+
+.contacto-formulario{
+    display: block;
+    margin-bottom: 1.5rem;
+
+}
+.contacto-formulario label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #28464B;
 }
 @media (max-width:1023px) {
 
