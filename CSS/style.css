@@ -67,7 +67,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 gap: 100px;
-padding: 20 px;
+padding: 20px;
 }
 
 .contacto-formulario{
@@ -79,7 +79,11 @@ padding: 20 px;
     background: #C6E9EB;
     grid-area: footer;
     padding: 1rem;
+    text-align: center;
+    
+    
 }
+
 
  .nav ul {
     font-family: 'Atkinson Hyperlegible Mono';
@@ -115,6 +119,10 @@ form {
     font-weight: bold;
     color: #28464B;
 }
+
+.especifique-container{
+    display: none;
+}
 @media (max-width:1023px) {
 
 
@@ -129,6 +137,14 @@ form {
     grid-template-columns: 1fr;
 
 
+}
+
+.nav ul {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
 }
 .tarjeta-miembro {
     background: white;
@@ -167,7 +183,8 @@ form {
 
 .bio-miembro {
     color: var(--color-texto); /* #326771 */
-    line-hseight: 1.6;
+    line-height: 1.6;
+}
 }
 
 /* Versión para pantallas grandes (opcional) */

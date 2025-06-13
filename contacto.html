@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <script src="JAVASCRIPT/scripts.js" defer ></script>
+    <script src="js/scripts.js" defer ></script>
 </head>
 <body>
     
-</body>
+
 <div class="container">
         <header class="header">
             <img src="imagenes/LogoSofrwareBusiness.jpg"
@@ -27,42 +27,44 @@
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
-</html>
+
 
 <section>
-    <h2>Forumulario de Contacto</h2>
+    <h2>Formulario de Contacto</h2>
     <form> 
         <div class="contacto-formulario">
-          <label for="Nombre" >Nombre</label>
+          <label for="nombre" >Nombre</label>
           <input type="text" id="nombre">
         </div>
 
         <div class="contacto-formulario">
-          <label for="Apellido">Apellido</label>
-          <input type="text">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido">
        </div>
 
        <div class="contacto-formulario">
            <label for="email">Correo Electronico</label>
            <input type="email" id="email">
        </div>
+
        <div class="contacto-formulario">
         <label for="referencia">¿Cómo te enteraste de nuestra empresa?</label>
         <select name="referencia" id="referencia" required>
          <option value="" disabled selected> Seleccione una opción</option>
          <option value="redes">Redes</option>
-         <option value="comeentarios">Comentarios</option> 
-         <option value="otros">Otros</option>  
+         <option value="comentarios">Comentarios</option> 
+         <option value="otro">Otro</option>  
         </select>
        </div>
-       <div class="contacto-formulario especifique-container" style="display: none;">
-        <label for="especifique">Especifique</label>
-        <textarea name="especifique" id="especifique">
-            
-        </textarea>
 
+       <div class="contacto-formulario especifique-container" >
+         <label for="especifique">Especifique </label>
+         <textarea name="especifique" id="especifique"></textarea>
        </div>
         
         <button type="submit" id="enviar">Enviar</button>
     </form>
 </section>
+<footer class="footer">Software for Business @ 2025 </footer>
+</body>
+</html>
